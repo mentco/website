@@ -1,0 +1,1789 @@
+/* border: 2px red dashed; */
+/* sorted by specificity and alphabetized */
+
+/* DESKTOP VIEW */
+@media screen and (min-width: 950px) {
+    /* desktop IDs */
+    #aboutMentco {
+        margin-top: auto;
+        padding: 0rem 1rem;
+    }
+    #allParts {
+        height: auto;
+        width: 100%;
+    }
+    #boilerplate {
+        display: flex;
+        flex-direction: row;
+        margin-top: 1.25rem;
+        margin-right: 0;
+        margin-left: auto;
+    }
+    #boilerplate p {
+        margin: 0 0.05rem;
+    }
+    #boilerplate span {
+        display: block;
+        margin: 0 1rem;
+    }
+    #certification {
+        margin-left: -1rem;
+        width: 90.67vw;
+    }
+    #certs {
+        display: flex;
+        flex-direction: row;
+        gap: 1.5rem;
+    }
+    #contactForm {
+        padding: 0 1rem 1rem 1rem;
+    }
+    #cta {
+        background: #FFD700;
+        border: 2px solid #36454F;
+        box-shadow: 4px 4px 0px 0px rgba(54, 69, 79, 0.25);
+        color: #36454F;
+        cursor: pointer;
+        font-family: "Domine", serif;
+        font-size: 0.9rem;
+        font-weight: bold;
+        height: 2.4rem;
+        line-height: 1.125rem;
+        letter-spacing: 0.009rem;
+        max-width: 215px;
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
+        min-width: 156px;
+        position: static;
+        text-align: center;
+        text-transform: uppercase;
+        width: 43.33vw;
+    }
+    #footerBottom {
+        display: flex;
+        flex-direction: row;
+        margin-top: 1.125rem;
+    }
+    #formButtons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 1.5rem;
+        width: 94vw;
+    }
+    #headerVisual {
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+        height: 4rem;
+        width: 30vw;
+        margin-right: 0;
+        margin-left: auto;
+}
+    #mainNav a {
+        align-items: center;
+        color: #EAEBEC;
+        font-family: "Domine", serif;
+        font-weight: bold;
+        font-size: 0.9rem;
+        line-height: 1.125rem;
+        letter-spacing: 0.009rem;
+        padding: 16.3px 0;
+        text-align: center;
+        text-decoration-line: none;
+        min-width: 2.7rem;
+    }
+    #mainNav {
+        display: flex;
+        flex-direction: row;
+        height: 2.4rem;
+        justify-content: space-between;
+        margin-bottom: 0.25rem;
+        min-width: 14.3rem;
+        padding: 0rem 0.5rem;
+    }
+    #secondaryLinks a {
+        color: #EAEBEC;
+        font-family: "Domine", serif;
+        font-weight: bold;
+        font-size: 0.9rem;
+        line-height: 1.125rem;
+        letter-spacing: 0.009rem;
+        padding: 16.3px 0;
+        text-decoration-line: none;
+    }
+    #secondaryLinks p {
+        margin-top: 1.25rem;
+    }
+    #mainFooterContent hr {
+        display: none;
+    }
+    #mainFooterContent {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-right: 0.5rem;
+    }
+    #ourAudience {
+        margin-top: auto;
+        padding: 0.001rem 1rem;
+    }
+    #pageHeader {
+        display: flex;
+        flex-direction: column;
+        margin-top: 3.9rem;
+    }
+    #partsGallery img {
+        width: 11rem;
+    }
+    #photoHeaderCMM {
+        bottom: -90%;
+        position: absolute;
+        right: 0;
+        width: 11.33rem;
+    }
+    #photoHeaderMumbaiTeam {
+        bottom: -50%;
+        position: absolute;
+        right: 0;
+        width: 11.33rem;
+    }
+    #photoHeaderParts {
+            bottom: -35%;
+            position: absolute;
+            right: 0;
+            width: 11.33rem;
+    }
+    #photoProjectHeaderParts {
+        bottom: -12.5%;
+        position: absolute;
+        right: 0;
+        width: 11.33rem;
+    }
+    #photoHeaderPhone {
+        float: right;
+        width: 11.33rem;
+    }
+    #photoSam {
+        min-width: 156px;
+        width: 37.5vw;
+    }
+    #presidentMessage {
+        margin-top: auto;
+        padding: 0rem 1rem;
+    }
+    #projectHeaderBar h1 {
+        width: 75%;
+    }
+    #projectHeaderBar {
+            align-items: center;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: row;
+            height: 5.5rem;
+            padding-left: 0.5rem;
+            position: relative;
+            margin: 1.5rem 0rem 0rem 0rem;
+    }
+    #projectHeaderVisual {
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+            height: 100%;
+            width: 100%;
+            right: 0;
+            position: absolute;
+    }
+    #projectLink {
+        margin-left: 1rem;
+    }
+    #repInfo {
+        display: flex;
+        flex-direction: row;
+        gap: 8rem;
+        margin-bottom: 1.5rem;
+    }
+    #searchbox-d {
+        display: block;
+        margin-left: auto;
+        margin-right: 0;
+    }
+    #searchbox-t {
+        display: none;
+    }
+    #searchIcon {
+        display: none;
+
+    }
+    #selected div {
+        font-weight: normal;
+    }
+    #selected {
+        border-bottom: 3px #EAEBEC solid;
+    }
+    #sitemapInfo div {
+        padding-left: 1rem;
+    }
+    #utilityNav {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        justify-content: none;
+        margin-bottom: 0.25rem;
+        padding: 0rem 1rem;
+    }
+    
+    /* desktop classes, pseudo-classes, attribute selectors */
+    .accordion:after {
+        color: #36454F;
+        content: '\002B';
+        font-family: "Domine", serif;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 15.4px;
+        letter-spacing: 0.16px;
+        margin-left: auto;
+        padding-right: 1rem;
+    }
+    .accordion {
+		align-items: center;
+		background-color: #EAEBEC;
+        box-shadow: 4px 4px 0px 0px rgba(54, 69, 79, 0.25);
+        cursor: pointer;
+		display: flex;
+		height: 4rem;
+		color: #36454F;
+		font-family: "Domine", serif;
+		font-weight: bold;
+		font-size: 0.9rem;
+		line-height: 1.125rem;
+		letter-spacing: 0.009rem;
+		margin-top: 1.5rem;
+		padding-left: 1rem;
+		text-transform: uppercase;
+		width: 100%;
+}
+    .accordionGroup {
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+    }
+    .active:after {
+        color: #36454F;
+        content: '\002D';
+        font-family: "Domine", serif;
+        font-weight: bold;
+        font-size: 32px;
+		line-height: 15.4px;
+		letter-spacing: 0.16px;
+        margin-right: 0.625vw;
+		margin-top: -0.35rem;
+        padding-right: 1rem;
+    }
+    .btn {
+        background-color: #EAEBEC;
+        border-radius: 0;
+        border: 2px solid #36454F;
+      box-shadow: 4px 4px 0px 0px rgba(54, 69, 79, 0.25);
+      color: #36454F;
+        padding: 0.75rem 0.8125rem;
+      width: 3rem;
+      cursor: pointer;
+        font-family: "Domine", serif;
+        font-size: 1.125rem;
+        font-weight: bold;
+        height: 3rem;
+        line-height: 1.40625rem;
+        letter-spacing: 0.0625rem;
+        padding: 0rem 0.1875rem;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 1.5rem;
+        min-width: 13.8125rem;
+        margin-bottom: 1rem;
+    }
+    .carousel {
+        max-width: 94vw;
+        position: relative;
+        margin: auto;
+    }
+    .contrastBackground {
+        background-color: #EAEBEC;
+        box-sizing: border-box;
+        height: 2.75rem;
+        padding: 0.25rem 0.25rem;
+    }
+    .darkBackground {
+        background-color: #36454F;
+        color: #EAEBEC;
+    }
+    .formField {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        margin-top: 1.5rem;
+        margin-right: 1rem;
+    }
+    .headerBar {
+        align-items: center;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        height: 4rem;
+        padding-left: 0.5rem;
+        position: relative;
+        margin: 1.5rem 0rem 0rem 0rem;
+    }
+    .lightBackground {
+        color: #36454F;
+    }
+    .logoMentco {
+        height: 2.4rem;
+    }
+    .outlineHeader {
+        list-style-type: none;
+        margin-left: -1rem;
+        margin-top: 0.5rem;
+        text-decoration-line: underline;
+    }
+    .panel ul {
+        margin-top: -0.75rem;
+        padding-left: 1rem;
+    }
+    .panel {
+        padding: 1rem 1rem;
+        display: none;
+        overflow: hidden;
+      }
+    .repContact img {
+        width: 117px;
+    }
+    .repContact ul {
+        margin-left: -1rem;
+    }
+    .repContact {
+        display: flex;
+        flex-direction: row;
+    }
+    .repName span {
+        font-weight: bold;
+    }
+    .repName {
+        list-style-type: none;
+        margin: 0;
+    }
+    .required {
+        color: red;
+    }
+    .slideCounter {
+        height: 0.75rem;
+        width: 2.5rem;
+        margin: 0 0.009rem;
+        display: none;
+    }
+    .slides {
+        display: none;
+    }
+    .staffInfo {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        margin-bottom: 0;
+        margin-top: 2rem;
+    }
+    .staffName {
+        list-style-type: none;
+    }
+    .staffName span {
+        font-weight: bold;
+    }
+    .staffPhoto {
+        height: 22.5rem;
+        width: 16.875rem;
+    }
+    .staffText {
+        display: flex;
+        flex-direction: column;
+        margin-left: 1rem;
+    }
+    .sticky {
+        position: -webkit-sticky; /* for Safari browser */
+        position: sticky;
+        top: 4rem;
+    }
+    
+    /* desktop basic elements, pseudo-elements */
+    body {
+        background-color: #EAEBEC;
+        box-sizing: border-box;
+        margin: 0;
+    }
+    footer img {
+        height: 48px;
+    }
+    footer {
+        padding: 1.5rem 1rem 0.5rem 1rem;
+    }
+    h1 {
+        display: block;
+        font-family: "Antonio", sans-serif;
+        font-size: 2rem;
+        font-weight: 600;
+        line-height: 2.8rem;
+        margin-top: 1.3125rem;
+        text-transform: uppercase;
+    }
+    h2 {
+        font-family: "Antonio", sans-serif;
+        font-size: 1.75rem;
+        line-height: 2.365rem;
+        margin-top: 1.3rem;
+    }
+    h3 {
+        font-family: "Antonio", sans-serif;
+        font-size: 1.25rem;
+        line-height: 1.69rem;
+        margin-top: 0.95rem;
+    }
+    html {
+        font-size: 20px;
+    }
+    input[type=email] {
+        background-color: #EAEBEC;
+        color: #36454F;
+        font-family: "Domine", serif;
+        font-size: 1.125rem;
+        font-weight: 700;
+        height: 3rem;
+        line-height: 1.40625rem;
+        letter-spacing: 0.0625rem;
+        margin-top: 0.5rem;
+        padding-left: 1rem;
+        width: 100%;
+      }
+    input[type=file] {
+        background-color: #EAEBEC;
+        color: #36454F;
+        font-family: "Domine", serif;
+        font-size: 1.125rem;
+        font-weight: 700;
+        height: 3rem;
+        line-height: 1.40625rem;
+        letter-spacing: 0.0625rem;
+        margin-top: 0.5rem;
+        padding-left: 1rem;
+        width: 100%;
+      }
+    input[type=reset] {
+        background-color: #EAEBEC;
+        border-radius: 0;
+        box-shadow: 4px 4px 0px 0px rgba(54, 69, 79, 0.25);
+        color: #36454F;
+        padding: 0.75rem 0.8125rem;
+        width: 3rem;
+        cursor: pointer;
+        font-family: "Domine", serif;
+        font-size: 1.125rem;
+        font-weight: bold;
+        height: 3rem;
+        line-height: 1.40625rem;
+        letter-spacing: 0.0625rem;
+        padding: 0rem 0.1875rem;
+        text-align: center;
+        text-transform: uppercase;
+        min-width: 156px;
+        width: 43.33vw;
+      }
+      input[type=search] {
+        background-color: #EAEBEC;
+        color: #36454F;
+        font-family: "Domine", serif;
+        font-size: 1.125rem;
+        font-weight: 700;
+        height: 2.4rem;
+        line-height: 1.40625rem;
+        letter-spacing: 0.0625rem;
+        padding-left: 1rem;
+}
+    input[type=submit] {
+        background-color: #EAEBEC;
+        border-radius: 0;
+        box-shadow: 4px 4px 0px 0px rgba(54, 69, 79, 0.25);
+        color: #36454F;
+        padding: 0.75rem 0.8125rem;
+        width: 3rem;
+        cursor: pointer;
+        font-family: "Domine", serif;
+        font-size: 1.125rem;
+        font-weight: bold;
+        height: 3rem;
+        line-height: 1.40625rem;
+        letter-spacing: 0.0625rem;
+        padding: 0rem 0.1875rem;
+        text-align: center;
+        text-transform: uppercase;
+        min-width: 156px;
+        width: 43.33vw;
+      }
+    input[type=tel] {
+        background-color: #EAEBEC;
+        color: #36454F;
+        font-family: "Domine", serif;
+        font-size: 1.125rem;
+        font-weight: 700;
+        height: 3rem;
+        line-height: 1.40625rem;
+        letter-spacing: 0.0625rem;
+        margin-top: 0.5rem;
+        padding-left: 1rem;
+        width: 100%;
+      }
+    input[type=text] {
+        background-color: #EAEBEC;
+        color: #36454F;
+        font-family: "Domine", serif;
+        font-size: 1.125rem;
+        font-weight: 700;
+        height: 3rem;
+        line-height: 1.40625rem;
+        letter-spacing: 0.0625rem;
+        margin-top: 0.5rem;
+        padding-left: 1rem;
+        width: 100%;
+      }
+label {
+    color: #36454F;
+    font-family: "Domine", serif;
+    font-size: 0.9rem;
+    font-weight: bold;
+    line-height: 1.125rem;
+    letter-spacing: 0.009rem;
+  }
+li {
+    font-family: "Domine", serif;
+        line-height: 1.45rem;
+        max-width: 60ch;
+}
+    nav {
+        box-sizing: border-box;
+        border-bottom: 2px #EAEBEC solid;
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        padding: 0.5rem 0rem 0.5rem 0rem;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+    }
+    p {
+        font-family: "Domine", serif;
+        line-height: 1.45rem;
+        margin-top: 0.75rem;
+        max-width: 60ch;
+    }
+    section {
+        padding: 0 1rem;
+    }
+    table, th, td {
+        border: 1px solid #36454F;
+    }
+    table {
+        margin-top: 1.5rem;
+        margin-left: -1rem;
+        width: 90.67vw;
+    }
+    td {
+        color: #36454F;
+        font-family: "Domine", serif;
+        font-size: 16px;
+        font-weight: normal;
+        height: 48px;
+        line-height: 21.6px;
+    }
+    textarea {
+        background-color: #EAEBEC;
+        border: 2px solid #36454F;
+        box-sizing: border-box;
+	    color: #36454F;
+	    font-family: "Domine", serif;
+	    font-size: 1.125rem;
+	    font-weight: 700;
+	    line-height: 1.40625rem;
+	    padding-left: 1rem;
+        width: 94vw;
+    }
+    th {
+        background-color: #36454F;
+        color: #EAEBEC;
+        font-family: "Domine", serif;
+        font-size: 0.9rem;
+        font-weight: bold;
+        height: 48px;
+        line-height: 1.125rem;
+        letter-spacing: 0.009rem;
+    }
+    
+    /* desktop universal selector ("*") */
+
+    }
+
+    /* TABLET VIEW */
+@media screen and (min-width: 481px) and (max-width: 950px) {
+    /* tablet IDs */
+    #aboutMentco {
+        margin-top: auto;
+        padding: 0rem 1rem;
+    }
+    #allParts {
+        width: 100%;
+    }
+    #boilerplate {
+        margin-top: 1rem;
+        margin-right: 0;
+        margin-left: auto;
+    }
+    #boilerplate p {
+        margin: 0;
+    }
+    #boilerplate span {
+        display: none;
+    }
+    #certification {
+        margin-left: -1rem;
+        width: 90.67vw;
+    }
+    #certs {
+        display: flex;
+        flex-direction: row;
+        gap: 1.5rem;
+    }
+    #contactForm {
+        padding: 0 1rem 1rem 1rem;
+    }
+    #cta {
+        background: #FFD700;
+        border: 2px solid #36454F;
+        box-shadow: 4px 4px 0px 0px rgba(54, 69, 79, 0.25);
+        color: #36454F;
+        cursor: pointer;
+        font-family: "Domine", serif;
+        font-size: 0.88rem;
+        font-weight: bold;
+        height: 2.66rem;
+        line-height: 15.4px;
+        letter-spacing: 0.16px;
+        min-width: 156px;
+        right: 1rem;
+        position: absolute;
+        text-align: center;
+        text-transform: uppercase;
+        width: 43.33vw;
+    }
+    #footerBottom {
+        margin-top: 1.125rem;
+    }
+    #formButtons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 1.5rem;
+    }
+    #headerVisual {
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+        height: 3.5rem;
+        width: 30vw;
+        margin-right: 0;
+        margin-left: auto;
+}
+    #mainNav a {
+        align-items: center;
+        color: #EAEBEC;
+        font-family: "Domine", serif;
+        font-weight: bold;
+        font-size: 0.88rem;
+        line-height: 1.05277rem;
+        letter-spacing: 0.0088rem;
+        padding: 0.9055rem 0;
+        text-align: center;
+        text-decoration-line: none;
+        min-width: 48px;
+    }
+    #mainNav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 0.25rem;
+        min-width: 229px;
+        padding: 0rem 1rem;
+    }
+    #ourAudience {
+        margin-top: auto;
+        padding: 0.001rem 1rem;
+    }
+    #pageHeader {
+        display: flex;
+        flex-direction: column;
+        margin-top: 3.9rem;
+    }
+    #partsGallery img {
+        width: 10rem;
+    }
+    #photoHeaderCMM {
+        bottom: -90%;
+        position: absolute;
+        right: 0;
+        width: 10rem;
+    }
+    #photoHeaderMumbaiTeam {
+        bottom: -50%;
+        position: absolute;
+        right: 0;
+        width: 10rem;
+    }
+    #photoHeaderParts {
+        bottom: -35%;
+        position: absolute;
+        right: 0;
+        width: 10rem;
+    }
+    #photoHeaderPhone {
+        float: right;
+        width: 10rem;
+    }
+    #photoProjectHeaderParts {
+        bottom: -10%;
+        position: absolute;
+        right: 0;
+        width: 10rem;
+    }
+    #presidentMessage {
+        margin-top: auto;
+        padding: 0rem 1rem;
+    }
+    #projectHeaderBar h1 {
+        width: 60%;
+    }
+    #projectHeaderBar {
+        align-items: center;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: row;
+            height: 4.5rem;
+            padding-left: 0.5rem;
+            position: relative;
+            margin: 6.25rem 0rem 0rem 0rem;
+    }
+    #projectHeaderVisual {
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+            height: 100%;
+            width: 100%;
+            right: 0;
+            position: absolute;
+    }
+    #projectLink {
+        margin-left: 1rem;
+    }
+    #repInfo {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    #searchbox-d {
+        display: none;
+    }
+    #searchbox-t {
+        display: block;
+        margin-right: 2rem;
+    }
+    #searchIcon {
+        display: none;
+    }
+    #secondaryLinks a {
+        color: #EAEBEC;
+        font-family: "Domine", serif;
+        font-weight: bold;
+        font-size: 0.88rem;
+        line-height: 1.05277rem;
+        letter-spacing: 0.0088rem;
+        padding: 0.9055rem 0;
+        text-decoration-line: none;
+    }
+    #secondaryLinks p {
+        margin-top: 1.5rem;
+    }
+    #selected div {
+        font-weight: normal;
+    }
+    #selected {
+        border-bottom: 3px #EAEBEC solid;
+    }
+    #sitemapInfo div {
+        padding-left: 1rem;
+    }
+    #utilityNav {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        justify-content: space-between;
+        margin-bottom: 0.25rem;
+        padding: 0rem 1rem;
+        width: 100%;
+    }
+    
+    /* tablet classes, pseudo-classes, attribute selectors */
+    .accordion:after {
+        color: #36454F;
+        content: '\002B';
+        font-family: "Domine", serif;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 15.4px;
+        letter-spacing: 0.16px;
+        margin-left: auto;
+        padding-right: 1rem;
+    }
+    .accordion {
+		align-items: center;
+		background-color: #EAEBEC;
+        box-shadow: 4px 4px 0px 0px rgba(54, 69, 79, 0.25);
+        cursor: pointer;
+		display: flex;
+		height: 4rem;
+		color: #36454F;
+		font-family: "Domine", serif;
+		font-weight: bold;
+		font-size: 0.88rem;
+        line-height: 1.05277rem;
+        letter-spacing: 0.0088rem;
+		margin-top: 1.5rem;
+		padding-left: 1rem;
+		text-transform: uppercase;
+		width: 100%;
+}
+    .accordionGroup {
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+    }
+    .active:after {
+        color: #36454F;
+        content: '\002D';
+        font-family: "Domine", serif;
+        font-weight: bold;
+        font-size: 32px;
+		line-height: 15.4px;
+		letter-spacing: 0.16px;
+        margin-right: 0.625vw;
+		margin-top: -0.35rem;
+        padding-right: 1rem;
+    }
+    .btn {
+        background-color: #EAEBEC;
+        border-radius: 0;
+        border: 2px solid #36454F;
+      box-shadow: 4px 4px 0px 0px rgba(54, 69, 79, 0.25);
+      color: #36454F;
+        padding: 0.75rem 0.8125rem;
+      width: 3rem;
+      cursor: pointer;
+        font-family: "Domine", serif;
+        font-size: 1.125rem;
+        font-weight: bold;
+        height: 3rem;
+        line-height: 1.40625rem;
+        letter-spacing: 0.0625rem;
+        padding: 0rem 0.1875rem;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 1.5rem;
+        min-width: 13.8125rem;
+        margin-bottom: 1rem;
+    }
+    .contrastBackground {
+        background-color: #EAEBEC;
+        box-sizing: border-box;
+        height: 2.75rem;
+        padding: 0.25rem 0.25rem;
+    }
+    .darkBackground {
+        background-color: #36454F;
+        color: #EAEBEC;
+    }
+    .formField {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        margin-top: 1.5rem;
+        margin-right: 1rem;
+    }
+    .headerBar {
+        align-items: center;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        height: 3.5rem;
+        padding-left: 0.5rem;
+        position: relative;
+        margin: 6.25rem 0rem 0rem 0rem;
+    }
+    .lightBackground {
+        color: #36454F;
+    }
+    .logoMentco {
+        height: 48px;
+    }
+    .outlineHeader {
+        list-style-type: none;
+        margin-left: -1rem;
+        margin-top: 0.5rem;
+        text-decoration-line: underline;
+    }
+    .panel ul {
+        margin-top: -0.75rem;
+        padding-left: 1rem;
+    }
+    .panel {
+        padding: 1rem 1rem;
+        display: none;
+        overflow: hidden;
+      }
+      .repContact img {
+        width: 117px;
+    }
+    .repContact ul {
+        margin-left: -1rem;
+    }
+    .repContact {
+        display: flex;
+        flex-direction: row;
+    }
+    .repName span {
+        font-weight: bold;
+    }
+    .repName {
+        list-style-type: none;
+        margin: 0;
+    }
+    .required {
+        color: red;
+    }
+    .staffInfo {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        margin-bottom: 0;
+        margin-top: 2rem;
+    }
+    .staffName {
+        list-style-type: none;
+        margin-left: -1rem;
+    }
+    .staffName span {
+        font-weight: bold;
+    }
+    .staffPhoto {
+        height: 10rem;
+        width: 7.5rem;
+        margin-top: -0.5rem;
+      }
+    .staffText {
+        display: flex;
+        flex-direction: column;
+    }
+    .sticky {
+        position: -webkit-sticky; /* for Safari browser */
+        position: sticky;
+        top: 8.75rem;
+    }
+    
+    /* tablet basic elements, pseudo-elements */
+    body {
+        background-color: #EAEBEC;
+        box-sizing: border-box;
+        margin: 0;
+    }
+    footer img {
+        height: 48px;
+    }
+    footer {
+        padding: 1.5rem 1rem 0.5rem 1rem;
+    }
+    h1 {
+        display: block;
+        font-family: "Antonio", sans-serif;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 40px;
+        margin-top: 1.3125rem;
+        text-transform: uppercase;
+    }
+    h2 {
+        font-family: "Antonio", sans-serif;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 40px;
+        margin-top: 1.3125rem;
+    }
+    h3 {
+        font-family: "Antonio", sans-serif;
+        font-size: 28px;
+        line-height: 38.5px;
+        margin-top: 1.125rem;
+    }
+    html {
+        font-size: 18px;
+    }
+    input[type=email] {
+        background-color: #EAEBEC;
+        color: #36454F;
+        font-family: "Domine", serif;
+        font-size: 1.125rem;
+        font-weight: 700;
+        height: 3rem;
+        line-height: 1.40625rem;
+        letter-spacing: 0.0625rem;
+        margin-top: 0.5rem;
+        padding-left: 1rem;
+        width: 100%;
+      }
+    input[type=file] {
+        background-color: #EAEBEC;
+        color: #36454F;
+        font-family: "Domine", serif;
+        font-size: 1.125rem;
+        font-weight: 700;
+        height: 3rem;
+        line-height: 1.40625rem;
+        letter-spacing: 0.0625rem;
+        margin-top: 0.5rem;
+        padding-left: 1rem;
+        width: 100%;
+      }
+    input[type=reset] {
+        background-color: #EAEBEC;
+        border-radius: 0;
+        box-shadow: 4px 4px 0px 0px rgba(54, 69, 79, 0.25);
+        color: #36454F;
+        padding: 0.75rem 0.8125rem;
+        width: 3rem;
+        cursor: pointer;
+        font-family: "Domine", serif;
+        font-size: 1.125rem;
+        font-weight: bold;
+        height: 3rem;
+        line-height: 1.40625rem;
+        letter-spacing: 0.0625rem;
+        padding: 0rem 0.1875rem;
+        text-align: center;
+        text-transform: uppercase;
+        min-width: 156px;
+        width: 43.33vw;
+      }
+    input[type=search] {
+        background-color: #EAEBEC;
+        color: #36454F;
+        font-family: "Domine", serif;
+        font-size: 1.125rem;
+        font-weight: 700;
+        height: 3rem;
+        line-height: 1.40625rem;
+        letter-spacing: 0.0625rem;
+        padding-left: 1rem;
+      }
+    input[type=submit] {
+        background-color: #EAEBEC;
+        border-radius: 0;
+        box-shadow: 4px 4px 0px 0px rgba(54, 69, 79, 0.25);
+        color: #36454F;
+        padding: 0.75rem 0.8125rem;
+        width: 3rem;
+        cursor: pointer;
+        font-family: "Domine", serif;
+        font-size: 1.125rem;
+        font-weight: bold;
+        height: 3rem;
+        line-height: 1.40625rem;
+        letter-spacing: 0.0625rem;
+        padding: 0rem 0.1875rem;
+        text-align: center;
+        text-transform: uppercase;
+        min-width: 156px;
+        width: 43.33vw;
+      }
+    input[type=tel] {
+        background-color: #EAEBEC;
+        color: #36454F;
+        font-family: "Domine", serif;
+        font-size: 1.125rem;
+        font-weight: 700;
+        height: 3rem;
+        line-height: 1.40625rem;
+        letter-spacing: 0.0625rem;
+        margin-top: 0.5rem;
+        padding-left: 1rem;
+        width: 100%;
+      }
+    input[type=text] {
+        background-color: #EAEBEC;
+        color: #36454F;
+        font-family: "Domine", serif;
+        font-size: 1.125rem;
+        font-weight: 700;
+        height: 3rem;
+        line-height: 1.40625rem;
+        letter-spacing: 0.0625rem;
+        margin-top: 0.5rem;
+        padding-left: 1rem;
+        width: 100%;
+      }
+      label {
+        color: #36454F;
+        font-family: "Domine", serif;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 15.4px;
+        letter-spacing: 0.16px;
+    }
+    li {
+        font-family: "Domine", serif;
+            line-height: 1.45rem;
+            max-width: 45ch;
+    }
+    nav {
+        box-sizing: border-box;
+        border-bottom: 2px #EAEBEC solid;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 0.5rem 0rem 1.66rem 0rem;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+    }
+    p {
+        font-family: "Domine", serif;
+        line-height: 1.4rem;
+        margin-top: 0.75rem;
+        max-width: 45ch;
+    }
+    section {
+        padding: 0 1rem;
+    }
+    table, th, td {
+        border: 1px solid #36454F;
+    }
+    table {
+        margin-top: 1.5rem;
+        margin-left: -1rem;
+        width: 89.75vw;
+    }
+    td {
+        color: #36454F;
+        font-family: "Domine", serif;
+        font-size: 16px;
+        font-weight: normal;
+        height: 48px;
+        line-height: 21.6px;
+    }
+    textarea {
+        background-color: #EAEBEC;
+        border: 2px solid #36454F;
+        box-sizing: border-box;
+	    color: #36454F;
+	    font-family: "Domine", serif;
+	    font-size: 1.125rem;
+	    font-weight: 700;
+	    line-height: 1.40625rem;
+	    padding-left: 1rem;
+        width: 90.67vw;
+    }
+    th {
+        background-color: #36454F;
+        color: #EAEBEC;
+        font-family: "Domine", serif;
+        font-size: 14px;
+        font-weight: bold;
+        height: 48px;
+        line-height: 15.4px;
+        letter-spacing: 0.16px;
+    }
+    
+    /* tablet universal selector ("*") */
+    
+    }
+
+/*MOBILE VIEW */
+@media screen and (max-width: 480px) {
+    /* mobile IDs */
+    #boilerplate {
+        margin-top: 1.75rem;
+    }
+    #boilerplate span {
+        display: none;
+    }
+    #certification {
+        margin-left: -1rem;
+        width: 90.67vw;
+    }
+    #certs {
+        display: flex;
+        flex-direction: row;
+        gap: 1.5rem;
+    }
+    #contactForm {
+        padding: 0 1rem 1rem 1rem;
+    }
+    #cta {
+        background: #FFD700;
+        border: 2px solid #36454F;
+        box-shadow: 4px 4px 0px 0px rgba(54, 69, 79, 0.25);
+        color: #36454F;
+        cursor: pointer;
+        font-family: "Domine", serif;
+        font-size: 14px;
+        font-weight: bold;
+        height: 48px;
+        line-height: 15.4px;
+        letter-spacing: 0.16px;
+        min-width: 156px;
+        right: 1rem;
+        position: absolute;
+        text-align: center;
+        text-transform: uppercase;
+        width: 43.33vw;
+    }
+    #footerBottom {
+        margin-top: 1.125rem;
+    }
+    #formButtons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 1.5rem;
+    }
+    #headerVisual {
+            clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+            height: 48px;
+            width: 136px;
+            margin-right: 0;
+            margin-left: auto;
+    }
+    #hqInfo ul {
+        padding-left: 1rem;
+    }
+    #mainNav a {
+        align-items: center;
+        color: #EAEBEC;
+        font-family: "Domine", serif;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 15.4px;
+        letter-spacing: 0.16px;
+        padding: 16.3px 0;
+        text-align: center;
+        text-decoration-line: none;
+        min-width: 48px;
+    }
+    #mainNav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 0.25rem;
+        min-width: 229px;
+        padding: 0rem 1rem;
+    }
+    #secondaryLinks a {
+        color: #EAEBEC;
+        font-family: "Domine", serif;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 15.4px;
+        letter-spacing: 0.16px;
+        padding: 16.3px 0;
+        text-decoration-line: none;
+    }
+    #secondaryLinks p {
+        margin-top: 1.75rem;
+    }
+    hr {
+        display: inline-block;
+        width: 90.67vw;
+    }
+    #pageHeader {
+        margin-top: 146px;
+    }
+    #partsGallery img {
+        width: 11rem;
+    }
+    #photoHeaderCMM {
+        bottom: -90%;
+        position: absolute;
+        right: 0;
+        width: 136px;
+    }
+    #photoHeaderMumbaiTeam {
+        bottom: -50%;
+        position: absolute;
+        right: 0;
+        width: 136px;
+    }
+    #photoHeaderParts {
+        bottom: -35%;
+        position: absolute;
+        right: 0;
+        width: 136px;
+    }
+    #photoHeaderPhone {
+        width: 100%;
+    }
+    #photoProjectHeaderParts {
+        position: absolute;
+        right: 0;
+        width: 200px;
+    }
+    #projectHeaderBar h1 {
+        width: 50%;
+    }
+    #projectHeaderBar {
+        align-items: center;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        height: 128px;
+        padding-left: 0.5rem;
+        position: relative;
+        margin: 11rem 0rem 0rem 0rem;
+    }
+    #projectHeaderVisual {
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+            height: 100%;
+            width: 100%;
+            right: 0;
+            position: absolute;
+    }
+    #projectLink {
+        margin-left: 1rem;
+    }
+    #repInfo {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    #searchbox-d {
+        display: none;
+    }
+    #searchbox-t {
+        display: none;
+    }
+    #searchIcon {
+        display: block;
+        height: 48px;
+    }
+    #selected div {
+        font-weight: normal;
+    }
+    #selected {
+        border-bottom: 3px #EAEBEC solid;
+    }
+    #sitemapInfo div {
+        padding-left: 1rem;
+    }
+    #utilityNav {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        justify-content: space-between;
+        margin-bottom: 0.25rem;
+        padding: 0rem 1rem;
+    }
+    #verticalSpacer {
+        border-bottom: 3px #36454F solid;
+    }
+    
+    /* mobile classes, pseudo-classes, attribute selectors */
+    .accordion:after {
+        color: #36454F;
+        content: '\002B';
+        font-family: "Domine", serif;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 15.4px;
+        letter-spacing: 0.16px;
+        margin-left: auto;
+        padding-right: 1rem;
+    }
+    .accordion {
+		align-items: center;
+		background-color: #EAEBEC;
+        box-shadow: 4px 4px 0px 0px rgba(54, 69, 79, 0.25);
+        cursor: pointer;
+		display: flex;
+		height: 4rem;
+		color: #36454F;
+		font-family: "Domine", serif;
+		font-weight: bold;
+		font-size: 14px;
+		line-height: 15.4px;
+		letter-spacing: 0.16px;
+		margin-top: 1.5rem;
+		padding-left: 1rem;
+		text-transform: uppercase;
+		width: 100%;
+}
+    .accordionGroup {
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+    }
+    .active:after {
+        color: #36454F;
+        content: '\002D';
+        font-family: "Domine", serif;
+        font-weight: bold;
+        font-size: 32px;
+		line-height: 15.4px;
+		letter-spacing: 0.16px;
+        margin-right: 0.625vw;
+		margin-top: -0.35rem;
+        padding-right: 1rem;
+    }
+    .btn {
+        background-color: #EAEBEC;
+        border-radius: 0;
+        border: 2px solid #36454F;
+      box-shadow: 4px 4px 0px 0px rgba(54, 69, 79, 0.25);
+      color: #36454F;
+        padding: 0.75rem 0.8125rem;
+      width: 3rem;
+      cursor: pointer;
+        font-family: "Domine", serif;
+        font-size: 1.125rem;
+        font-weight: bold;
+        height: 3rem;
+        line-height: 1.40625rem;
+        letter-spacing: 0.0625rem;
+        padding: 0rem 0.1875rem;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 1.5rem;
+        min-width: 13.8125rem;
+        margin-bottom: 1rem;
+    }
+    .darkBackground {
+        background-color: #36454F;
+        color: #EAEBEC;
+    }
+    .equipType {
+        padding-top: 1.5%;
+        vertical-align: top;
+    }
+    .formField {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        margin-top: 1.5rem;
+        margin-right: 1rem;
+    }
+    .headerBar {
+        align-items: center;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        height: 48px;
+        padding-left: 0.5rem;
+        position: relative;
+        margin: 11rem 0rem 0rem 0rem;
+    }
+    .lightBackground {
+        color: #36454F;
+    }
+    .logoMentco {
+        height: 48px;
+    }
+    .outlineHeader {
+        list-style-type: none;
+        margin-left: -1rem;
+        margin-top: 0.5rem;
+        text-decoration-line: underline;
+    }
+    .panel ul {
+        margin-top: -0.75rem;
+        padding-left: 1rem;
+    }
+    .panel {
+        padding: 1rem 1rem;
+        display: none;
+        overflow: hidden;
+      }
+    .repContact img {
+        width: 117px;
+    }
+    .repContact ul {
+        margin-left: -1rem;
+    }
+    .repContact {
+        display: flex;
+        flex-direction: row;
+    }
+    .repName span {
+        font-weight: bold;
+    }
+    .repName {
+        list-style-type: none;
+        margin: 0;
+    }
+    .required {
+        color: red;
+    }
+    .staffInfo {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        margin-bottom: -1rem;
+        margin-top: 1rem;
+    }
+    .staffName {
+        list-style-type: none;
+        margin-left: -1rem;
+    }
+    .staffName span {
+        font-weight: bold;
+    }
+    .staffPhoto {
+      margin-top: -0.5rem;
+        height: 10rem;
+      width: 7.5rem;
+    }
+    .staffText {
+        display: flex;
+        flex-direction: column;
+    }
+    .sticky {
+        position: -webkit-sticky; /* for Safari browser */
+        position: sticky;
+        top: 147px;
+    }
+    
+    /* mobile basic elements, pseudo-elements */
+    body {
+        background-color: #EAEBEC;
+        box-sizing: border-box;
+        margin: 0;
+    }
+    footer img {
+        height: 48px;
+    }
+    footer {
+        padding: 1.5rem 1rem 0.5rem 1rem;
+    }
+    h1 {
+        font-family: "Antonio", sans-serif;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 40px;
+        margin-top: 1.3125rem;
+        text-transform: uppercase;
+    }
+    h2 {
+        font-family: "Antonio", sans-serif;
+        font-size: 28px;
+        line-height: 38.5px;
+        margin-top: 1.125rem;
+    }
+    h3 {
+        font-family: "Antonio", sans-serif;
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 0.9375rem;
+    }
+    html {
+        font-size: 16px;
+    }
+    input[type=email] {
+        background-color: #EAEBEC;
+        color: #36454F;
+        font-family: "Domine", serif;
+        font-size: 1.125rem;
+        font-weight: 700;
+        height: 3rem;
+        line-height: 1.40625rem;
+        letter-spacing: 0.0625rem;
+        margin-top: 0.5rem;
+        padding-left: 1rem;
+        width: 100%;
+      }
+    input[type=file] {
+        background-color: #EAEBEC;
+        color: #36454F;
+        font-family: "Domine", serif;
+        font-size: 1.125rem;
+        font-weight: 700;
+        height: 3rem;
+        line-height: 1.40625rem;
+        letter-spacing: 0.0625rem;
+        margin-top: 0.5rem;
+        padding-left: 1rem;
+        width: 100%;
+      }
+    input[type=reset] {
+        background-color: #EAEBEC;
+        border-radius: 0;
+        box-shadow: 4px 4px 0px 0px rgba(54, 69, 79, 0.25);
+        color: #36454F;
+        padding: 0.75rem 0.8125rem;
+        width: 3rem;
+        cursor: pointer;
+        font-family: "Domine", serif;
+        font-size: 1.125rem;
+        font-weight: bold;
+        height: 3rem;
+        line-height: 1.40625rem;
+        letter-spacing: 0.0625rem;
+        padding: 0rem 0.1875rem;
+        text-align: center;
+        text-transform: uppercase;
+        min-width: 156px;
+        width: 43.33vw;
+      }
+    input[type=search] {
+        background-color: #EAEBEC;
+        color: #36454F;
+        font-family: "Domine", serif;
+        font-size: 1.125rem;
+        font-weight: 700;
+        height: 3rem;
+        line-height: 1.40625rem;
+        letter-spacing: 0.0625rem;
+        padding-left: 1rem;
+        width: 23.75rem;
+      }
+    input[type=submit] {
+        background-color: #EAEBEC;
+        border-radius: 0;
+        box-shadow: 4px 4px 0px 0px rgba(54, 69, 79, 0.25);
+        color: #36454F;
+        padding: 0.75rem 0.8125rem;
+        width: 3rem;
+        cursor: pointer;
+        font-family: "Domine", serif;
+        font-size: 1.125rem;
+        font-weight: bold;
+        height: 3rem;
+        line-height: 1.40625rem;
+        letter-spacing: 0.0625rem;
+        padding: 0rem 0.1875rem;
+        text-align: center;
+        text-transform: uppercase;
+        min-width: 156px;
+        width: 43.33vw;
+      }
+    input[type=tel] {
+        background-color: #EAEBEC;
+        color: #36454F;
+        font-family: "Domine", serif;
+        font-size: 1.125rem;
+        font-weight: 700;
+        height: 3rem;
+        line-height: 1.40625rem;
+        letter-spacing: 0.0625rem;
+        margin-top: 0.5rem;
+        padding-left: 1rem;
+        width: 100%;
+      }
+    input[type=text] {
+        background-color: #EAEBEC;
+        color: #36454F;
+        font-family: "Domine", serif;
+        font-size: 1.125rem;
+        font-weight: 700;
+        height: 3rem;
+        line-height: 1.40625rem;
+        letter-spacing: 0.0625rem;
+        margin-top: 0.5rem;
+        padding-left: 1rem;
+        width: 100%;
+      }
+    label {
+        color: #36454F;
+        font-family: "Domine", serif;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 15.4px;
+        letter-spacing: 0.16px;
+    }
+    li {
+        font-family: "Domine", serif;
+        line-height: 21.6px;
+        max-width: 30ch;
+    }
+    nav {
+        border-bottom: 2px #EAEBEC solid;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 0.5rem 0rem 1.66rem 0rem;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+    }
+    p {
+        font-family: "Domine", serif;
+        line-height: 21.6px;
+        margin-top: 0.75rem;
+        max-width: 30ch;
+    }
+    section {
+        padding: 0 1rem;
+    }
+    small {
+        color: #36454F;
+	    font-family: "Domine", serif;
+	    font-size: 14px;
+	    font-weight: normal;
+        line-height: 15.4px;
+        letter-spacing: 0.16px;
+        margin-top: 1%;
+    }
+    table, th, td {
+        border: 1px solid #36454F;
+    }
+    table {
+        margin-top: 1.5rem;
+        margin-left: -1rem;
+        width: 90.67vw;
+    }
+    textarea {
+        background-color: #EAEBEC;
+        border: 2px solid #36454F;
+        box-sizing: border-box;
+	    color: #36454F;
+	    font-family: "Domine", serif;
+	    font-size: 1.125rem;
+	    font-weight: 700;
+	    line-height: 1.40625rem;
+	    padding-left: 1rem;
+        width: 90.67vw;
+    }
+    td {
+        color: #36454F;
+        font-family: "Domine", serif;
+        font-size: 16px;
+        font-weight: normal;
+        height: 48px;
+        line-height: 21.6px;
+    }
+    th {
+        background-color: #36454F;
+        color: #EAEBEC;
+        font-family: "Domine", serif;
+        font-size: 14px;
+        font-weight: bold;
+        height: 48px;
+        line-height: 15.4px;
+        letter-spacing: 0.16px;
+    }
+    
+    /* mobile universal selector ("*") */
+    
+    }

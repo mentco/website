@@ -1,0 +1,804 @@
+/* border: 2px red dashed; */
+/* sorted by specificity and alphabetized */
+
+/* DESKTOP VIEW */
+@media screen and (min-width: 951px) {
+    /* desktop IDs */
+    #aboutMentco {
+        margin-top: auto;
+        padding: 0rem 1rem;
+    }
+    #allParts {
+        width: 100%;
+    }
+    #boilerplate {
+        display: flex;
+        flex-direction: row;
+        float: none;
+        margin-top: 1.25rem;
+        margin-right: 0;
+        margin-left: auto;
+    }
+    #boilerplate p {
+        margin: 0 1rem;
+    }
+    #boilerplate span {
+        display: block;
+    }
+    #certs {
+        display: flex;
+        flex-direction: row;
+        gap: 1.5rem;
+    }
+    #cta {
+        background: #FFD700;
+        border: 2px solid #36454F;
+        box-shadow: 4px 4px 0px 0px rgba(54, 69, 79, 0.25);
+        color: #36454F;
+        cursor: pointer;
+        font-family: "Domine", serif;
+        font-size: 0.9rem;
+        font-weight: bold;
+        height: 2.4rem;
+        line-height: 1.125rem;
+        letter-spacing: 0.009rem;
+        max-width: 215px;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        min-width: 156px;
+        position: static;
+        text-align: center;
+        text-transform: uppercase;
+        width: 43.33vw;
+    }
+    #footerBottom {
+        display: flex;
+        flex-direction: row;
+        margin-top: 1.125rem;
+    }
+    #hero {
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        margin-top: 3.9rem;
+    }
+    #hero h2 {
+        font-family: Bigshot One;
+        font-size: 32px;
+        font-weight: normal;
+        line-height: 35.2px;
+        margin-top: 1.5rem;
+        text-transform: none;
+    }
+    #heroImage {
+        width: 54.5%;
+    }
+    #heroText {
+        padding: 0rem 1rem;
+        width: 46.5%;
+    }
+    #industryGroup ul {
+        padding: 0 1rem;
+    }
+    #logoGroup li img {
+        height: 3rem;
+    }
+    #logoGroup li {
+        margin-top: 1.5rem;
+    }
+    #logoGroup ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    #logoGroup {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 71.75vw;
+    }
+    #mainNav a {
+        align-items: center;
+        color: #EAEBEC;
+        font-family: "Domine", serif;
+        font-weight: bold;
+        font-size: 0.9rem;
+        line-height: 1.125rem;
+        letter-spacing: 0.009rem;
+        padding: 0.815rem 0;
+        text-align: center;
+        text-decoration-line: none;
+        min-width: 2.7rem;
+    }
+    #mainNav {
+        display: flex;
+        flex-direction: row;
+        height: 2.4rem;
+        justify-content: space-between;
+        margin-bottom: 0.25rem;
+        min-width: 14.3rem;
+        padding: 0rem 0.5rem;
+    }
+    #mainFooterContent a {
+        color: #EAEBEC;
+        font-family: "Domine", serif;
+        font-weight: bold;
+        font-size: 0.9rem;
+        line-height: 1.125rem;
+        letter-spacing: 0.009rem;
+        padding: 0.815rem 0;
+        text-decoration-line: none;
+    }
+    #mainFooterContent hr {
+        display: none;
+    }
+    #mainFooterContent {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-right: 0.5rem;
+    }
+    #message img {
+        float: right;
+        right: 1.5rem;
+        min-width: 10rem;
+        width: 12rem;
+    }
+    #ourAudience {
+        margin-top: auto;
+        padding: 0.001rem 1rem;
+    }
+    #photoSam {
+        min-width: 156px;
+        width: 37.5vw;
+    }
+    #presidentMessage {
+        margin-top: auto;
+        padding: 0rem 1rem;
+    }
+    #searchbox-d {
+        display: block;
+        margin-left: auto;
+        margin-right: 0;
+    }
+    #searchbox-t {
+        display: none;
+    }
+    #searchIcon {
+        display: none;
+        height: 48px;
+    }
+    #secondaryLinks a {
+        color: #EAEBEC;
+        font-family: "Domine", serif;
+        font-weight: bold;
+        font-size: 0.9rem;
+        line-height: 1.125rem;
+        letter-spacing: 0.009rem;
+        padding: 0.815rem 0;
+        text-decoration-line: none;
+    }
+    #secondaryLinks p {
+        margin-top: 1.25rem;
+    }
+    #selected div {
+        font-weight: normal;
+    }
+    #selected {
+        border-bottom: 3px #EAEBEC solid;
+    }
+    #utilityNav {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        justify-content: space-between;
+        margin-bottom: 0.25rem;
+        padding: 0rem 1rem;
+    }
+    
+    /* desktop classes, pseudo-classes, attribute selectors */
+    .contrastBackground {
+        background-color: #EAEBEC;
+        box-sizing: border-box;
+        height: 2.75rem;
+        padding: 0.25rem 0.25rem;
+    }
+    .lightBackground {
+        color: #36454F;
+    }
+    .logoMentco {
+        height: 2.4rem;
+    }
+    .darkBackground {
+        background-color: #36454F;
+        color: #EAEBEC;
+    }
+    
+    /* desktop basic elements, pseudo-elements */
+    body {
+        background-color: #EAEBEC;
+        box-sizing: border-box;
+        margin: 0;
+    }
+    footer img {
+        height: 48px;
+    }
+    footer {
+        padding: 1.5rem 1rem 0.5rem 1rem;
+    }
+    h1 {
+        display: none;
+    }
+    h2 {
+        font-family: "Antonio", sans-serif;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 40px;
+        margin-top: 1.3125rem;
+        text-transform: uppercase;
+    }
+    h3 {
+        font-family: "Antonio", sans-serif;
+        font-size: 28px;
+        line-height: 38.5px;
+        margin-top: 1.125rem;
+    }
+    h4 {
+        font-family: "Antonio", sans-serif;
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 0.9375rem;
+    }
+    html {
+        font-size: 20px;
+    }
+    input[type=search] {
+        background-color: #EAEBEC;
+        color: #36454F;
+        font-family: "Domine", serif;
+        font-size: 1.125rem;
+        font-weight: 700;
+        height: 2.4rem;
+        line-height: 1.40625rem;
+        letter-spacing: 0.0625rem;
+        padding-left: 1rem;
+}
+    nav {
+        box-sizing: border-box;
+        border-bottom: 2px #EAEBEC solid;
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        padding: 0.5rem 0rem 0.5rem 0rem;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+    }
+    p {
+        font-family: "Domine", serif;
+        line-height: 1.45rem;
+        margin-top: 0.75rem;
+        max-width: 60ch;
+    }
+    
+    /* desktop universal selector ("*") */
+    
+    }
+
+/* TABLET VIEW */
+@media screen and (min-width: 481px) and (max-width: 950px) {
+    /* tablet IDs */
+    #aboutMentco {
+        margin-top: auto;
+        padding: 0rem 1rem;
+    }
+    #allParts {
+        margin-bottom: auto;
+        margin-top: -15%;
+        width: 100%;
+    }
+    #boilerplate {
+        display: flex;
+        flex-direction: column;
+        float: none;
+        margin-top: 1rem;
+    }
+    #boilerplate p {
+        margin: 0;
+    }
+    #boilerplate span {
+        display: none;
+    }
+    #certs {
+        display: flex;
+        flex-direction: row;
+        gap: 1.5rem;
+    }
+    #cta {
+        background: #FFD700;
+        border: 2px solid #36454F;
+        box-shadow: 4px 4px 0px 0px rgba(54, 69, 79, 0.25);
+        color: #36454F;
+        cursor: pointer;
+        font-family: "Domine", serif;
+        font-size: 0.88rem;
+        font-weight: bold;
+        height: 2.66rem;
+        line-height: 15.4px;
+        letter-spacing: 0.16px;
+        min-width: 156px;
+        right: 1rem;
+        position: absolute;
+        text-align: center;
+        text-transform: uppercase;
+        width: 43.33vw;
+    }
+    #footerBottom {
+        margin-top: 1.125rem;
+    }
+    /*#hero {
+        background-color: white;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 146px;
+    }*/
+    #hero {
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        margin-top: 7.75rem;
+    }
+    #hero h2 {
+        font-family: Bigshot One;
+        font-size: 32px;
+        font-weight: normal;
+        line-height: 35.2px;
+        margin-top: 1.5rem;
+        text-transform: none;
+    }
+    #heroImage {
+        padding-top: 5rem;
+        width: 54.5%;
+    }
+    #heroText {
+        padding: 0rem 1rem;
+        width: 46.5%;
+    }
+    #industryGroup ul {
+        padding: 0 1rem;
+    }
+    #logoGroup li img {
+        height: 3rem;
+    }
+    #logoGroup li {
+        margin-top: 1.5rem;
+    }
+    #logoGroup ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    #mainNav a {
+        align-items: center;
+        color: #EAEBEC;
+        font-family: "Domine", serif;
+        font-weight: bold;
+        font-size: 0.88rem;
+        line-height: 1.05277rem;
+        letter-spacing: 0.0088rem;
+        padding: 0.9055rem 0;
+        text-align: center;
+        text-decoration-line: none;
+        min-width: 48px;
+    }
+    #mainNav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 0.25rem;
+        min-width: 229px;
+        padding: 0rem 1rem;
+    }
+    #ourAudience {
+        margin-top: auto;
+        padding: 0.001rem 1rem;
+    }
+    #presidentMessage {
+        margin-top: auto;
+        padding: 0rem 1rem;
+    }
+    #mainFooterContent a {
+        color: #EAEBEC;
+        font-family: "Domine", serif;
+        font-weight: bold;
+        font-size: 0.88rem;
+        line-height: 1.05277rem;
+        letter-spacing: 0.0088rem;
+        padding: 0.9055rem 0;
+        text-decoration-line: none;
+    }
+    #message img {
+        float: right;
+        right: 1.5rem;
+        min-width: 10rem;
+        width: 10rem;
+    }
+    #message p {
+        width: 91.11vw;
+    }
+    #searchbox-d {
+        display: none;
+    }
+    #searchbox-t {
+        display: block;
+        margin-left: auto;
+        margin-right: 0;
+    }
+    #searchIcon {
+        display: none;
+    }
+    #secondaryLinks a {
+        color: #EAEBEC;
+        font-family: "Domine", serif;
+        font-weight: bold;
+        font-size: 0.88rem;
+        line-height: 1.05277rem;
+        letter-spacing: 0.0088rem;
+        padding: 0.9055rem 0;
+        text-decoration-line: none;
+    }
+    #secondaryLinks p {
+        margin-top: 1.5rem;
+    }
+    #selected div {
+        font-weight: normal;
+    }
+    #selected {
+        border-bottom: 3px #EAEBEC solid;
+    }
+    #utilityNav {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        justify-content: space-between;
+        margin-bottom: 0.25rem;
+        padding: 0rem 1rem;
+    }
+    
+    /* tablet classes, pseudo-classes, attribute selectors */
+    .contrastBackground {
+        background-color: #EAEBEC;
+        box-sizing: border-box;
+        height: 2.75rem;
+        padding: 0.25rem 0.25rem;
+    }
+    .lightBackground {
+        color: #36454F;
+    }
+    .logoMentco {
+        height: 48px;
+    }
+    .darkBackground {
+        background-color: #36454F;
+        color: #EAEBEC;
+    }
+    
+    /* tablet basic elements, pseudo-elements */
+    body {
+        background-color: #EAEBEC;
+        box-sizing: border-box;
+        margin: 0;
+    }
+    footer img {
+        height: 48px;
+    }
+    footer {
+        padding: 1.5rem 1rem 0.5rem 1rem;
+    }
+    h1 {
+        display: none;
+    }
+    h2 {
+        font-family: "Antonio", sans-serif;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 40px;
+        margin-top: 1.3125rem;
+        text-transform: uppercase;
+    }
+    h3 {
+        font-family: "Antonio", sans-serif;
+        font-size: 28px;
+        line-height: 38.5px;
+        margin-top: 1.125rem;
+    }
+    h4 {
+        font-family: "Antonio", sans-serif;
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 0.9375rem;
+    }
+    html {
+        font-size: 18px;
+    }
+    input[type=search] {
+            background-color: #EAEBEC;
+            color: #36454F;
+            font-family: "Domine", serif;
+            font-size: 1.125rem;
+            font-weight: 700;
+            height: 3rem;
+            line-height: 1.40625rem;
+            letter-spacing: 0.0625rem;
+            padding-left: 1rem;
+    }
+    nav {
+        box-sizing: border-box;
+        border-bottom: 2px #EAEBEC solid;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 0.5rem 0rem 1.66rem 0rem;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+    }
+    p {
+        font-family: "Domine", serif;
+        line-height: 1.4rem;
+        margin-top: 0.75rem;
+        max-width: 45ch;
+    }
+    
+    /* tablet universal selector ("*") */
+    
+    }
+
+/* MOBILE VIEW */
+@media screen and (max-width: 480px) {
+/* mobile IDs */
+#aboutMentco {
+    margin-top: auto;
+    padding: 0rem 1rem;
+}
+#allParts {
+    width: 100%;
+}
+#boilerplate {
+    display: flex;
+    flex-direction: column;
+    float: none;
+    margin-top: 1rem;
+}
+#boilerplate p {
+    margin: 0;
+}
+#boilerplate span {
+    display: none;
+}
+#certs {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+#cta {
+    background: #FFD700;
+    border: 2px solid #36454F;
+    box-shadow: 4px 4px 0px 0px rgba(54, 69, 79, 0.25);
+    color: #36454F;
+    cursor: pointer;
+    font-family: "Domine", serif;
+    font-size: 14px;
+    font-weight: bold;
+    height: 48px;
+    line-height: 15.4px;
+    letter-spacing: 0.16px;
+    min-width: 156px;
+    right: 1rem;
+    position: absolute;
+    text-align: center;
+	text-transform: uppercase;
+    width: 43.33vw;
+}
+#footerBottom {
+    margin-top: 1.125rem;
+}
+#hero {
+    background-color: white;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 146px;
+}
+#hero h2 {
+    font-family: Bigshot One;
+	font-size: 32px;
+	font-weight: normal;
+	line-height: 35.2px;
+    margin-top: 1.5rem;
+    text-transform: none;
+}
+#heroText {
+    padding: 0rem 1rem;
+}
+#industryGroup ul {
+    padding: 0 1rem;
+}
+#logoGroup li img {
+    height: 3rem;
+}
+#logoGroup li {
+    margin-top: 1.5rem;
+}
+#logoGroup ul {
+    list-style-type: none;
+    padding: 0;
+}
+#mainNav a {
+    align-items: center;
+    color: #EAEBEC;
+	font-family: "Domine", serif;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 15.4px;
+	letter-spacing: 0.16px;
+    padding: 16.3px 0;
+    text-align: center;
+	text-decoration-line: none;
+    min-width: 48px;
+}
+#mainNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 0.25rem;
+    min-width: 229px;
+    padding: 0rem 1rem;
+}
+#photoSam {
+    float: right;
+    min-width: 156px;
+    width: 37.5vw;
+}
+#ourAudience {
+    margin-top: auto;
+    padding: 0.001rem 1rem;
+}
+#presidentMessage {
+    margin-top: auto;
+    padding: 0rem 1rem;
+}
+#mainFooterContent a {
+    color: #EAEBEC;
+	font-family: "Domine", serif;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 15.4px;
+	letter-spacing: 0.16px;
+    padding: 16.3px 0;
+	text-decoration-line: none;
+}
+#message p {
+    width: 91.11vw;
+}
+#searchbox-d {
+    display: none;
+}
+#searchbox-t {
+    display: none;
+}
+#searchIcon {
+    display: block;
+    height: 48px;
+}
+#secondaryLinks a {
+    color: #EAEBEC;
+    font-family: "Domine", serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 15.4px;
+    letter-spacing: 0.16px;
+    padding: 16.3px 0;
+    text-decoration-line: none;
+}
+#secondaryLinks p {
+    margin-top: 1.75rem;
+}
+#selected div {
+    font-weight: normal;
+}
+#selected {
+    border-bottom: 3px #EAEBEC solid;
+}
+#utilityNav {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    justify-content: space-between;
+    margin-bottom: 0.25rem;
+    padding: 0rem 1rem;
+}
+
+/* mobile classes, pseudo-classes, attribute selectors */
+.contrastBackground {
+    background-color: #EAEBEC;
+    box-sizing: border-box;
+    height: 2.75rem;
+    padding: 0.25rem 0.25rem;
+}
+.lightBackground {
+    color: #36454F;
+}
+.logoMentco {
+    height: 48px;
+}
+.darkBackground {
+    background-color: #36454F;
+	color: #EAEBEC;
+}
+
+/* mobile basic elements, pseudo-elements */
+body {
+    background-color: #EAEBEC;
+    box-sizing: border-box;
+    margin: 0;
+}
+footer img {
+    height: 48px;
+}
+footer {
+    padding: 1.5rem 1rem 0.5rem 1rem;
+}
+h1 {
+    display: none;
+}
+h2 {
+	font-family: "Antonio", sans-serif;
+	font-size: 32px;
+    font-weight: 600;
+	line-height: 40px;
+	margin-top: 1.3125rem;
+    text-transform: uppercase;
+}
+h3 {
+	font-family: "Antonio", sans-serif;
+	font-size: 28px;
+	line-height: 38.5px;
+	margin-top: 1.125rem;
+}
+h4 {
+	font-family: "Antonio", sans-serif;
+	font-size: 20px;
+	line-height: 30px;
+	margin-top: 0.9375rem;
+}
+html {
+    font-size: 16px;
+}
+input[type=search] {
+    display: none;
+}
+nav {
+    box-sizing: border-box;
+    border-bottom: 2px #EAEBEC solid;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 0.5rem 0rem 1.66rem 0rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+p {
+    font-family: "Domine", serif;
+	line-height: 1.35rem;
+	margin-top: 0.75rem;
+    max-width: 30ch;
+}
+
+/* mobile universal selector ("*") */
+
+}
